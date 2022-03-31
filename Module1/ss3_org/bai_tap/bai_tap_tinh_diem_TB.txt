@@ -1,0 +1,7 @@
+BEGIN 
+    INPUT M "DIEM MON TOAN"
+          P "DIEM MON LY"
+          C "DIEM MON HOA" 
+    ĐTB = (M+P+C)/3 
+    DISPLAY ĐTB
+END 

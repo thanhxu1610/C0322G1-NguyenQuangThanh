@@ -1,0 +1,10 @@
+BEGIN
+    INPUT A,B,C
+          IF A>B AND A>C
+    DISPLAY "A LỚN NHẤT"
+          ELSE
+          IF B>C
+    DISPLAY "B LỚN NHẤT"
+          ELSE B<C
+    DISPLAY "C LỚN NHẤT"
+END
