@@ -1,0 +1,14 @@
+BEGIN 
+    INPUT P = Point
+	IF P >= 75 
+	    DISPLAY "Loại A" 
+	  ELSE IF P >= 60
+	       DISPLAY "Loại B" 
+	ELSE
+	  IF P >= 45
+	    DISPLAY "LoạiC"
+	  ELSE IF P >= 35
+		   DISPLAY "Loại D"
+	  IF P < 35
+	    DISPLAY"Loại E"
+END 
