@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo form đơn giản 2</title>
+</head>
+<body>
+<form>
+    <table align="center" style="background-color: khaki; width: 600px" cellpadding="5px" cellspacing="10px">
+        <tr>
+            <td colspan="2" style="color: blue; background-color: lightskyblue; font-weight: bold">ĐĂNG KÝ HỌC VIÊN</td>
+        </tr>
+        <tr>
+            <td style="color: dodgerblue">Họ và tên</td>
+            <td><input type="text" name="username"></td>
+        </tr>
+        <tr>
+            <td style="color: dodgerblue">Ngày sinh</td>
+            <td><input type="date" name="dob"></td>
+        </tr>
+        <tr>
+            <td style="color: dodgerblue">Giới tính</td>
+            <td>
+                <input type="radio" name="gender" checked> Nam
+                <input type="radio" name="gender"> Nữ
+            </td>
+        </tr>
+        <tr>
+            <td style="color: dodgerblue">Địa chỉ</td>
+            <td><textarea cols="30" rows="3" name="address"></textarea></td>
+        </tr>
+        <tr>
+            <td style="color: dodgerblue">Lớp</td>
+            <td>
+                <select name="class">
+                    <option> -- Chọn lớp --</option>
+                    <option>C1121G1</option>
+                    <option>C1221G1</option>
+                    <option>C0122G1</option>
+                    <option>C0222G1</option>
+                    <option>C0322G1</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td style="color: dodgerblue">Email</td>
+            <td><input type="email" name="email"></td>
+        </tr>
+        <tr>
+            <td style="color: dodgerblue">Điện thoại</td>
+            <td><input type="tel" name="phone"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" name="reg" value="Đăng kí">
+                <input type="reset" name="reset" value="Nhập lại">
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
